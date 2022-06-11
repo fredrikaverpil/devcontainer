@@ -1,0 +1,7 @@
+services:
+
+  hello:
+    build:
+      context: .
+      ssh:
+        - default
