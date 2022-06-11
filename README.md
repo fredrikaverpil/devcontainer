@@ -19,4 +19,4 @@ Docker Compose version v2.5.1
 
 ## Problem
 
-When running "Reopen in container" in vscode, I get the error seen in `error.log`.
+When running "Reopen in container" in vscode, I get the error seen in [`error.log`](error.log).
