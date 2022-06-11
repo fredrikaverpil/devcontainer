@@ -10,11 +10,17 @@ hello, world!
 ```bash
 $ docker compose version
 Docker Compose version v2.5.1
+
+$ docker-compose version
+Docker Compose version v2.5.1
 ```
 
 ```bash
-$ docker-compose version
-Docker Compose version v2.5.1
+$ uname -s
+Darwin
+
+$ uname -p
+arm
 ```
 
 ## Problem
