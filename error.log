@@ -1,36 +1,36 @@
-[2022-06-11T14:25:54.611Z] Remote-Containers 0.238.2 in VS Code 1.68.0 (4af164ea3a06f701fe3e89a2bcbb421d2026b68f).
-[2022-06-11T14:25:54.611Z] Start: Resolving Remote
-[2022-06-11T14:25:54.621Z] Setting up container for folder or workspace: /Users/fredrik/code/repos/devcontainer
-[2022-06-11T14:25:54.623Z] Start: Check Docker is running
-[2022-06-11T14:25:54.623Z] Start: Run: docker version --format {{.Server.APIVersion}}
-[2022-06-11T14:25:54.701Z] Stop (78 ms): Run: docker version --format {{.Server.APIVersion}}
-[2022-06-11T14:25:54.701Z] Server API version: 1.41
-[2022-06-11T14:25:54.701Z] Stop (78 ms): Check Docker is running
-[2022-06-11T14:25:54.702Z] Start: Run: docker volume ls -q
-[2022-06-11T14:25:54.766Z] Stop (64 ms): Run: docker volume ls -q
-[2022-06-11T14:25:54.774Z] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/Users/fredrik/code/repos/devcontainer --filter label=vsch.quality=stable
-[2022-06-11T14:25:54.851Z] Stop (77 ms): Run: docker ps -q -a --filter label=vsch.local.folder=/Users/fredrik/code/repos/devcontainer --filter label=vsch.quality=stable
-[2022-06-11T14:25:54.852Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer
-[2022-06-11T14:25:54.922Z] Stop (70 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer
-[2022-06-11T14:25:54.923Z] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/fredrik/code/repos/devcontainer --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer --log-level debug --log-format json --config /Users/fredrik/code/repos/devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
-[2022-06-11T14:25:55.014Z] remote-containers 0.238.2.
-[2022-06-11T14:25:55.014Z] Start: Run: docker buildx version
-[2022-06-11T14:25:55.119Z] Stop (105 ms): Run: docker buildx version
-[2022-06-11T14:25:55.119Z] Start: Resolving Remote
-[2022-06-11T14:25:55.121Z] Start: Run: docker-compose version --short
-[2022-06-11T14:25:55.220Z] Stop (99 ms): Run: docker-compose version --short
-[2022-06-11T14:25:55.221Z] Start: Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
-[2022-06-11T14:25:55.297Z] Stop (76 ms): Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
-[2022-06-11T14:25:55.298Z] Start: Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
-[2022-06-11T14:25:55.396Z] Stop (98 ms): Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
-[2022-06-11T14:25:55.396Z] name: devcontainer
+[2022-06-11T15:01:34.567Z] Remote-Containers 0.238.2 in VS Code 1.68.0 (4af164ea3a06f701fe3e89a2bcbb421d2026b68f).
+[2022-06-11T15:01:34.567Z] Start: Resolving Remote
+[2022-06-11T15:01:34.576Z] Setting up container for folder or workspace: /Users/fredrik/code/repos/devcontainer
+[2022-06-11T15:01:34.578Z] Start: Check Docker is running
+[2022-06-11T15:01:34.579Z] Start: Run: docker version --format {{.Server.APIVersion}}
+[2022-06-11T15:01:34.660Z] Stop (81 ms): Run: docker version --format {{.Server.APIVersion}}
+[2022-06-11T15:01:34.660Z] Server API version: 1.41
+[2022-06-11T15:01:34.661Z] Stop (83 ms): Check Docker is running
+[2022-06-11T15:01:34.661Z] Start: Run: docker volume ls -q
+[2022-06-11T15:01:34.723Z] Stop (62 ms): Run: docker volume ls -q
+[2022-06-11T15:01:34.723Z] Start: Run: docker volume create vscode
+[2022-06-11T15:01:34.789Z] Stop (66 ms): Run: docker volume create vscode
+[2022-06-11T15:01:34.798Z] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/Users/fredrik/code/repos/devcontainer --filter label=vsch.quality=stable
+[2022-06-11T15:01:34.865Z] Stop (67 ms): Run: docker ps -q -a --filter label=vsch.local.folder=/Users/fredrik/code/repos/devcontainer --filter label=vsch.quality=stable
+[2022-06-11T15:01:34.865Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer
+[2022-06-11T15:01:34.936Z] Stop (71 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer
+[2022-06-11T15:01:34.936Z] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/fredrik/code/repos/devcontainer --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer --log-level debug --log-format json --config /Users/fredrik/code/repos/devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
+[2022-06-11T15:01:35.028Z] remote-containers 0.238.2.
+[2022-06-11T15:01:35.028Z] Start: Run: docker buildx version
+[2022-06-11T15:01:35.132Z] Stop (104 ms): Run: docker buildx version
+[2022-06-11T15:01:35.133Z] Start: Resolving Remote
+[2022-06-11T15:01:35.135Z] Start: Run: docker-compose version --short
+[2022-06-11T15:01:35.230Z] Stop (95 ms): Run: docker-compose version --short
+[2022-06-11T15:01:35.231Z] Start: Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
+[2022-06-11T15:01:35.303Z] Stop (72 ms): Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
+[2022-06-11T15:01:35.303Z] Start: Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
+[2022-06-11T15:01:35.406Z] Stop (103 ms): Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
+[2022-06-11T15:01:35.407Z] name: devcontainer
 services:
   hello:
     build:
       context: /Users/fredrik/code/repos/devcontainer
       dockerfile: Dockerfile
-      ssh:
-      - default
     command:
     - /bin/sh
     - -c
@@ -46,18 +46,16 @@ services:
 networks:
   default:
     name: devcontainer_default
-[2022-06-11T14:25:55.398Z] Start: Run: docker events --format {{json .}} --filter event=start
-[2022-06-11T14:25:55.399Z] PersistedPath=/Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data, ContainerHasLabels=false
-[2022-06-11T14:25:55.399Z] Start: Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
-[2022-06-11T14:25:55.497Z] Stop (98 ms): Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
-[2022-06-11T14:25:55.497Z] name: devcontainer
+[2022-06-11T15:01:35.409Z] Start: Run: docker events --format {{json .}} --filter event=start
+[2022-06-11T15:01:35.410Z] PersistedPath=/Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data, ContainerHasLabels=false
+[2022-06-11T15:01:35.410Z] Start: Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
+[2022-06-11T15:01:35.513Z] Stop (103 ms): Run: docker-compose -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml --profile * config
+[2022-06-11T15:01:35.513Z] name: devcontainer
 services:
   hello:
     build:
       context: /Users/fredrik/code/repos/devcontainer
       dockerfile: Dockerfile
-      ssh:
-      - default
     command:
     - /bin/sh
     - -c
@@ -73,202 +71,709 @@ services:
 networks:
   default:
     name: devcontainer_default
-[2022-06-11T14:25:55.498Z] Start: Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml build
-[2022-06-11T14:25:55.799Z] [+] Building 0.0s (0/0)                                                         
-[2022-06-11T14:25:55.911Z] [+] Building 0.1s (2/3)                                                         
+[2022-06-11T15:01:35.514Z] Start: Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml build
+[2022-06-11T15:01:35.796Z] [+] Building 0.0s (0/0)                                                         
+[2022-06-11T15:01:35.906Z] [+] Building 0.1s (2/3)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.0s
-[2022-06-11T14:25:56.063Z] [+] Building 0.2s (3/4)                                                         
+[2022-06-11T15:01:36.057Z] [+] Building 0.2s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
-[2022-06-11T14:25:56.063Z]  => => transferring dockerfile: 150B                                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.2s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:56.213Z] [+] Building 0.4s (3/4)                                                         
-[2022-06-11T14:25:56.214Z]  => [internal] load build definition from Dockerfile                       0.0s
+[2022-06-11T15:01:36.208Z] 
+[2022-06-11T15:01:36.208Z] [+] Building 0.4s (3/4)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.3s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:56.364Z] 
-[2022-06-11T14:25:56.364Z] [+] Building 0.5s (3/4)                                                         
+[2022-06-11T15:01:36.358Z] [+] Building 0.5s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
- => [internal] load .dockerignore                                          0.0s
+[2022-06-11T15:01:36.359Z]  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.5s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:56.514Z] [+] Building 0.7s (3/4)                                                         
+[2022-06-11T15:01:36.508Z] [+] Building 0.7s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
-[2022-06-11T14:25:56.514Z]  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.6s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.6s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:56.667Z] [+] Building 0.8s (3/4)                                                         
+[2022-06-11T15:01:36.509Z] 
+[2022-06-11T15:01:36.660Z] [+] Building 0.8s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
- => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:36.660Z]  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.8s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:56.817Z] [+] Building 1.0s (3/4)                                                         
- => [internal] load build definition from Dockerfile                       0.0s
-[2022-06-11T14:25:56.817Z]  => => transferring dockerfile: 150B                                       0.0s
- => [internal] load .dockerignore                                          0.0s
- => => transferring context: 2B                                            0.0s
- => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.9s
- => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:56.968Z] [+] Building 1.1s (3/4)                                                         
+[2022-06-11T15:01:36.811Z] [+] Building 1.0s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
-[2022-06-11T14:25:56.968Z]  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.1s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  0.9s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:57.119Z] [+] Building 1.3s (3/4)                                                         
-[2022-06-11T14:25:57.119Z]  => [internal] load build definition from Dockerfile                       0.0s
+[2022-06-11T15:01:36.961Z] [+] Building 1.1s (3/4)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+[2022-06-11T15:01:36.961Z]  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.1s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+[2022-06-11T15:01:37.112Z] [+] Building 1.3s (3/4)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.2s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:57.270Z] [+] Building 1.4s (3/4)                                                         
- => [internal] load build definition from Dockerfile                       0.0s
-[2022-06-11T14:25:57.270Z]  => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:37.263Z] [+] Building 1.4s (3/4)                                                         
+[2022-06-11T15:01:37.263Z]  => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.4s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:57.421Z] [+] Building 1.6s (3/4)                                                         
+[2022-06-11T15:01:37.414Z] [+] Building 1.6s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
- => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:37.414Z]  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.5s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:57.571Z] [+] Building 1.7s (3/4)                                                         
+[2022-06-11T15:01:37.565Z] [+] Building 1.7s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
-[2022-06-11T14:25:57.572Z]  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.7s
+[2022-06-11T15:01:37.565Z]  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.7s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:57.728Z] [+] Building 1.9s (3/4)                                                         
+[2022-06-11T15:01:37.720Z] [+] Building 1.9s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  1.8s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:57.877Z] [+] Building 2.0s (3/4)                                                         
+[2022-06-11T15:01:37.871Z] [+] Building 2.0s (3/4)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
-[2022-06-11T14:25:57.877Z]  => => transferring dockerfile: 150B                                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+[2022-06-11T15:01:37.872Z]  => [auth] library/python:pull token for registry-1.docker.io              0.0s
+[2022-06-11T15:01:37.973Z] [+] Building 2.1s (4/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:58.028Z] [+] Building 2.2s (3/4)                                                         
- => [internal] load build definition from Dockerfile                       0.0s
- => => transferring dockerfile: 150B                                       0.0s
- => [internal] load .dockerignore                                          0.0s
- => => transferring context: 2B                                            0.0s
-[2022-06-11T14:25:58.028Z]  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.1s
- => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:58.133Z] [+] Building 2.3s (5/8)                                                         
- => [internal] load build definition from Dockerfile                       0.0s
- => => transferring dockerfile: 150B                                       0.0s
- => [internal] load .dockerignore                                          0.0s
- => => transferring context: 2B                                            0.0s
- => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.2s
- => [auth] library/python:pull token for registry-1.docker.io              0.0s
  => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
  => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
  => [internal] load build context                                          0.0s
- => => transferring context: 50B                                           0.0s
-[2022-06-11T14:25:58.241Z] [+] Building 2.4s (8/8)                                                         
+ => => transferring context:                                               0.0s
+[2022-06-11T15:01:38.082Z] [+] Building 2.2s (5/8)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
- => [internal] load .dockerignore                                          0.0s
+[2022-06-11T15:01:38.082Z]  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
- => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.2s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
  => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.1s
  => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
  => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
- => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB
-[2022-06-11T14:25:58.241Z]   0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
  => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e72 0B / 30.07MB  0.1s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b68 0B / 858.91kB  0.1s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfc 
+[2022-06-11T15:01:38.082Z] 0B / 11.82MB  0.1s
  => [internal] load build context                                          0.0s
- => => transferring context: 50B                                           0.0s
- => [2/3] WORKDIR /workspace                                               0.0s
- => [3/3] COPY script.py .                                                 0.0s
-[2022-06-11T14:25:58.260Z] [+] Building 2.4s (9/9) FINISHED                                                
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:38.233Z] [+] Building 2.4s (5/8)                                                         
  => [internal] load build definition from Dockerfile                       0.0s
  => => transferring dockerfile: 150B                                       0.0s
  => [internal] load .dockerignore                                          0.0s
  => => transferring context: 2B                                            0.0s
- => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.2s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
  => [auth] library/python:pull token for registry-1.docker.io              0.0s
-[2022-06-11T14:25:58.260Z]  => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.1s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.3s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 
+[2022-06-11T15:01:38.233Z] 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e72 0B / 30.07MB  0.3s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b68 0B / 858.91kB  0.3s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfc 0B / 11.82MB  0.3s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:38.376Z] [+] Building 2.5s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.4s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 
+[2022-06-11T15:01:38.378Z] 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be134 4.19MB / 30.07MB  0.4s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b68 0B / 858.91kB  0.4s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfc 0B / 11.82MB  0.4s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:38.476Z] [+] Building 2.6s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.5s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 
+[2022-06-11T15:01:38.476Z] 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be134 6.29MB / 30.07MB  0.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b68 0B / 858.91kB  0.5s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfc 0B / 11.82MB  0.5s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:38.627Z] [+] Building 2.8s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+[2022-06-11T15:01:38.627Z]  => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.7s
  => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
  => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
  => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
  => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be134 9.44MB / 30.07MB  0.6s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfc 0B / 11.82MB  0.6s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e058 0B / 232B  0.6s
+ => [internal] load build context                                
+[2022-06-11T15:01:38.627Z]           0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:38.776Z] [+] Building 2.9s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.8s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a4
+[2022-06-11T15:01:38.776Z] 4b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 14.68MB / 30.07MB  0.8s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d 1.05MB / 11.82MB  0.8s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e058 0B / 232B  0.8s
  => [internal] load build context                                          0.0s
- => => transferring context: 50B                                           0.0s
- => [2/3] WORKDIR /workspace                                               0.0s
- => [3/3] COPY script.py .                                                 0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:38.875Z] [+] Building 3.0s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.9s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a4
+[2022-06-11T15:01:38.875Z] 4b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 17.83MB / 30.07MB  0.9s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d 2.10MB / 11.82MB  0.9s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c12243 0B / 2.95MB  0.9s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.026Z] [+] Building 3.2s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.1s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+[2022-06-11T15:01:39.026Z]  => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 19.92MB / 30.07MB  1.0s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d 4.19MB / 11.82MB  1.0s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c12243 0B / 2.95MB  1.0s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.175Z] [+] Building 3.3s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.2s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338
+[2022-06-11T15:01:39.175Z] a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 23.07MB / 30.07MB  1.2s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d 7.34MB / 11.82MB  1.2s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c12243 0B / 2.95MB  1.2s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.276Z] [+] Building 3.4s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.3s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338
+[2022-06-11T15:01:39.276Z] a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+[2022-06-11T15:01:39.277Z]  => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 25.17MB / 30.07MB  1.3s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d 8.39MB / 11.82MB  1.3s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 1.05MB / 2.95MB  1.3s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.376Z] [+] Building 3.5s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.4s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338
+[2022-06-11T15:01:39.376Z] a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 26.21MB / 30.07MB  1.4s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d 9.44MB / 11.82MB  1.4s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.10MB / 2.95MB  1.4s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.478Z] [+] Building 3.6s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.5s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338
+[2022-06-11T15:01:39.479Z] a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 28.31MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.53MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.630Z] 
+[2022-06-11T15:01:39.630Z] [+] Building 3.8s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.7s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f0
+[2022-06-11T15:01:39.630Z] 68cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.1s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.753Z] [+] Building 3.9s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.8s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638f
+[2022-06-11T15:01:39.754Z] d338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.2s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.857Z] [+] Building 4.0s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:39.857Z]  => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  1.9s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acd
+[2022-06-11T15:01:39.857Z] de9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.3s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:39.963Z] [+] Building 4.1s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:39.963Z]  => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.0s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acd
+[2022-06-11T15:01:39.963Z] de9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.4s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.069Z] [+] Building 4.2s (5/8)                                                         
+[2022-06-11T15:01:40.069Z]  => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.1s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b
+[2022-06-11T15:01:40.069Z] 860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.5s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.170Z] [+] Building 4.3s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:40.170Z]  => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.2s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acd
+[2022-06-11T15:01:40.170Z] de9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.6s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.277Z] [+] Building 4.4s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.3s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+[2022-06-11T15:01:40.277Z]  => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.402Z] [+] Building 4.6s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:40.402Z]  => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.4s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acd
+[2022-06-11T15:01:40.402Z] de9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+ => => extracting sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b689c0  0.1s
+ => => extracting sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfcab  0.0s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.503Z] [+] Building 4.7s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.5s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349
+[2022-06-11T15:01:40.503Z] 644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+ => => extracting sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b689c0  0.1s
+ => => extracting sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfcab  0.1s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.503Z] 
+[2022-06-11T15:01:40.603Z] [+] Building 4.8s (5/8)                                                         
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+[2022-06-11T15:01:40.603Z]  => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.6s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+ => => extracting sha256:a2bfcfb5c8a76
+[2022-06-11T15:01:40.604Z] 4417a5f66c22e4ec952cb7b40f364b689c0  0.1s
+ => => extracting sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfcab  0.2s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.709Z] [+] Building 4.9s (5/8)                                                         
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.7s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a11
+[2022-06-11T15:01:40.709Z] 3ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+ => => extracting sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b689c0  0.1s
+ => => extracting sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfcab  0.3s
+ => => extracting sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e05  0.0s
+ => => extracting sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c12243b  0.0s
+ => [internal] load build context                                          0.0s
+[2022-06-11T15:01:40.710Z]  => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.809Z] [+] Building 5.0s (5/8)                                                         
+ => => transferring dockerfile: 150B                                       0.0s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.8s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf
+[2022-06-11T15:01:40.809Z] 9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+ => => extracting sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b689c0  0.1s
+ => => extracting sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfcab  0.3s
+ => => extracting sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e05  0.0s
+ => => extracting sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c12243b  0.1s
+ => [internal] load build context                                          0.
+[2022-06-11T15:01:40.809Z] 0s
+[2022-06-11T15:01:40.809Z]  => => transferring context: 58B                                           0.0s
+[2022-06-11T15:01:40.960Z] [+] Building 5.1s (6/8)                                                         
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.9s
+[2022-06-11T15:01:40.960Z]  => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+ => => extracting sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b689c0  0.1s
+ => => extracting sha256:1172
+[2022-06-11T15:01:40.960Z] 5f02ebe97058901d7acdde9bb4f5e6dd85942d6cfcab  0.3s
+ => => extracting sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e05  0.0s
+ => => extracting sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c12243b  0.1s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+ => [2/3] WORKDIR /workspace                                               0.1s
+[2022-06-11T15:01:40.960Z] 
+[2022-06-11T15:01:41.019Z] [+] Building 5.2s (9/9) FINISHED                                                
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 150B                                       0.0s
+[2022-06-11T15:01:41.019Z]  => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim-bulls  2.0s
+ => [auth] library/python:pull token for registry-1.docker.io              0.0s
+ => [1/3] FROM docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  2.9s
+ => => resolve docker.io/library/python:3.10-slim-bullseye@sha256:ca78039  0.0s
+ => => sha256:ca78039cbd3772addb9179953bbf8fe71b50d4824b1 1.86kB / 1.86kB  0.0s
+ => => sha256:02b2117929b6a8a556491349644a638fd338a9a44b2 1.37kB / 1.37kB  0.0s
+ => => sha256:90d8c409ab549e73b9bf9a113ae9d4f068cf399586a 7.51kB / 7.51kB  0.0s
+ => => sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be13 30.07MB / 30.07MB  1.5s
+ => => sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f 858.91kB / 858.91kB  0.6s
+ => => sha256:11725f02ebe9705
+[2022-06-11T15:01:41.019Z] 8901d7acdde9bb4f5e6dd85942 11.82MB / 11.82MB  1.5s
+ => => sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e0 232B / 232B  0.8s
+ => => sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c1 2.95MB / 2.95MB  1.5s
+ => => extracting sha256:dc1f00a5d701e86e2cd2568b860c61b393d66be1341e7267  0.7s
+[2022-06-11T15:01:41.019Z]  => => extracting sha256:a2bfcfb5c8a764417a5f66c22e4ec952cb7b40f364b689c0  0.1s
+ => => extracting sha256:11725f02ebe97058901d7acdde9bb4f5e6dd85942d6cfcab  0.3s
+ => => extracting sha256:5c04b128bec2fbf1c48178c14f2a2b0c775855e933e73e05  0.0s
+ => => extracting sha256:3ed9ada5b0c38e1863527cb69f88ba3f545e786b7c12243b  0.1s
+ => [internal] load build context                                          0.0s
+ => => transferring context: 58B                                           0.0s
+ => [2/3] WORKDIR /workspace                                               0.1s
+[2022-06-11T15:01:41.019Z]  => [3/3] COPY script.py .                                                 0.0s
  => exporting to image                                                     0.0s
  => => exporting layers                                                    0.0s
- => => writing image sha256:1
-[2022-06-11T14:25:58.261Z] 66f161e768e71589cef84c6f6e81523cfe3b856829ac  0.0s
+ => => writing image sha256:1c88367f9aec09ce05f79f6bd0ac0d41c942297bfb588  0.0s
  => => naming to docker.io/library/devcontainer_hello                      0.0s
-[2022-06-11T14:25:58.322Z] 
+[2022-06-11T15:01:41.077Z] 
 Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
-[2022-06-11T14:25:58.327Z] Stop (2829 ms): Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml build
-[2022-06-11T14:25:58.327Z] Start: Run: docker inspect --type image devcontainer_hello
-[2022-06-11T14:25:58.382Z] Stop (55 ms): Run: docker inspect --type image devcontainer_hello
-[2022-06-11T14:25:58.382Z] Writing docker-compose.devcontainer.containerFeatures-1654957558382.yml to /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose
-[2022-06-11T14:25:58.383Z] Start: Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml -f /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.containerFeatures-1654957558382.yml up -d
-[2022-06-11T14:25:58.625Z] [+] Running 2/0
+[2022-06-11T15:01:41.082Z] Stop (5568 ms): Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml build
+[2022-06-11T15:01:41.082Z] Start: Run: docker inspect --type image devcontainer_hello
+[2022-06-11T15:01:41.136Z] Stop (54 ms): Run: docker inspect --type image devcontainer_hello
+[2022-06-11T15:01:41.137Z] Writing docker-compose.devcontainer.containerFeatures-1654959701137.yml to /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose
+[2022-06-11T15:01:41.137Z] Start: Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml -f /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.containerFeatures-1654959701137.yml up -d
+[2022-06-11T15:01:41.369Z] [+] Running 1/0
  ⠿ Network devcontainer_default    Creat...                                0.0s
- ⠿ Container devcontainer-hello-1  Cre...                                  0.0s
-[2022-06-11T14:25:58.726Z] [+] Running 1/2
-[2022-06-11T14:25:58.726Z]  ⠿ Network devcontainer_default    Creat...                                0.0s
  ⠿ Container devcontainer-hello-1  Sta...                                  0.1s
-[2022-06-11T14:25:58.800Z] [+] Running 2/2
+[2022-06-11T15:01:41.469Z] [+] Running 1/2
  ⠿ Network devcontainer_default    Creat...                                0.0s
  ⠿ Container devcontainer-hello-1  Sta...                                  0.2s
-[2022-06-11T14:25:58.804Z] Stop (421 ms): Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml -f /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.containerFeatures-1654957558382.yml up -d
-[2022-06-11T14:25:58.805Z] Start: Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
-[2022-06-11T14:25:58.862Z] Stop (57 ms): Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
-[2022-06-11T14:25:58.862Z] Start: Run: docker inspect --type container 9d91a349f578
-[2022-06-11T14:25:58.919Z] Stop (57 ms): Run: docker inspect --type container 9d91a349f578
-[2022-06-11T14:25:58.919Z] Start: Inspecting container
-[2022-06-11T14:25:58.919Z] Start: Run: docker inspect --type container 9d91a349f578dece8898082f064dd5a05a79120beda654e44363a32b24e8de73
-[2022-06-11T14:25:58.989Z] Stop (70 ms): Run: docker inspect --type container 9d91a349f578dece8898082f064dd5a05a79120beda654e44363a32b24e8de73
-[2022-06-11T14:25:58.989Z] Stop (70 ms): Inspecting container
-[2022-06-11T14:25:58.990Z] Start: Run in container: /bin/sh
-[2022-06-11T14:25:58.991Z] Start: Run in container: uname -m
-[2022-06-11T14:25:59.050Z] Stop (60 ms): Run in container: /bin/sh
-[2022-06-11T14:25:59.051Z] Shell server terminated (code: 1, signal: null)
-[2022-06-11T14:25:59.051Z] Error response from daemon: Container 9d91a349f578dece8898082f064dd5a05a79120beda654e44363a32b24e8de73 is not running
-[2022-06-11T14:25:59.051Z] Start: Run in container: cat /etc/passwd
-[2022-06-11T14:25:59.051Z] Stdin closed!
-[2022-06-11T14:25:59.051Z] Error: An error occurred setting up the container.
-[2022-06-11T14:25:59.052Z]     at PR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:188:2577)
-[2022-06-11T14:25:59.052Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[2022-06-11T14:25:59.052Z]     at async zR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:2177)
-[2022-06-11T14:25:59.052Z]     at async nb (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:3110)
-[2022-06-11T14:25:59.052Z]     at async JR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:13046)
-[2022-06-11T14:25:59.052Z]     at async KR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:12802)
-[2022-06-11T14:25:59.053Z] Stop (4130 ms): Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/fredrik/code/repos/devcontainer --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer --log-level debug --log-format json --config /Users/fredrik/code/repos/devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
-[2022-06-11T14:25:59.053Z] Exit code 1
-[2022-06-11T14:25:59.054Z] Command failed: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/fredrik/code/repos/devcontainer --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer --log-level debug --log-format json --config /Users/fredrik/code/repos/devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
-[2022-06-11T14:25:59.054Z] Exit code 1
+[2022-06-11T15:01:41.530Z] [+] Running 2/2
+ ⠿ Network devcontainer_default    Creat...                                0.0s
+ ⠿ Container devcontainer-hello-1  Sta...                                  0.2s
+[2022-06-11T15:01:41.534Z] Stop (397 ms): Run: docker-compose --project-name devcontainer -f /Users/fredrik/code/repos/devcontainer/docker-compose.yml -f /Users/fredrik/code/repos/devcontainer/.devcontainer/docker-compose.yml -f /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.containerFeatures-1654959701137.yml up -d
+[2022-06-11T15:01:41.534Z] Start: Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
+[2022-06-11T15:01:41.592Z] Stop (58 ms): Run: docker ps -q -a --filter label=com.docker.compose.project=devcontainer --filter label=com.docker.compose.service=hello
+[2022-06-11T15:01:41.592Z] Start: Run: docker inspect --type container ff6995ecef19
+[2022-06-11T15:01:41.649Z] Stop (57 ms): Run: docker inspect --type container ff6995ecef19
+[2022-06-11T15:01:41.650Z] Start: Inspecting container
+[2022-06-11T15:01:41.650Z] Start: Run: docker inspect --type container ff6995ecef19f6ad97e5600e8320deb72170d9e94e23749029f68e92ac2767c7
+[2022-06-11T15:01:41.706Z] Stop (56 ms): Run: docker inspect --type container ff6995ecef19f6ad97e5600e8320deb72170d9e94e23749029f68e92ac2767c7
+[2022-06-11T15:01:41.706Z] Stop (56 ms): Inspecting container
+[2022-06-11T15:01:41.707Z] Start: Run in container: /bin/sh
+[2022-06-11T15:01:41.708Z] Start: Run in container: uname -m
+[2022-06-11T15:01:41.766Z] Stop (59 ms): Run in container: /bin/sh
+[2022-06-11T15:01:41.766Z] Shell server terminated (code: 1, signal: null)
+[2022-06-11T15:01:41.766Z] Error response from daemon: Container ff6995ecef19f6ad97e5600e8320deb72170d9e94e23749029f68e92ac2767c7 is not running
+[2022-06-11T15:01:41.766Z] Start: Run in container: cat /etc/passwd
+[2022-06-11T15:01:41.766Z] Stdin closed!
+[2022-06-11T15:01:41.767Z] Error: An error occurred setting up the container.
+[2022-06-11T15:01:41.767Z]     at PR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:188:2577)
+[2022-06-11T15:01:41.767Z]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-06-11T15:01:41.767Z]     at async zR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:2177)
+[2022-06-11T15:01:41.767Z]     at async nb (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:3110)
+[2022-06-11T15:01:41.767Z]     at async JR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:13046)
+[2022-06-11T15:01:41.768Z]     at async KR (/Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js:245:12802)
+[2022-06-11T15:01:41.769Z] Stop (6833 ms): Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/fredrik/code/repos/devcontainer --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer --log-level debug --log-format json --config /Users/fredrik/code/repos/devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
+[2022-06-11T15:01:41.769Z] Exit code 1
+[2022-06-11T15:01:41.769Z] Command failed: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Users/fredrik/.vscode/extensions/ms-vscode-remote.remote-containers-0.238.2/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/fredrik/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/fredrik/code/repos/devcontainer --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/fredrik/code/repos/devcontainer --log-level debug --log-format json --config /Users/fredrik/code/repos/devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
+[2022-06-11T15:01:41.769Z] Exit code 1
